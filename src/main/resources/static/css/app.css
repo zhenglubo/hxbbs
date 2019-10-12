@@ -1,0 +1,47 @@
+body {
+  margin: 0ex 0ex 0ex 0ex;
+  padding: 0ex;
+  font-family: helvetica, tahoma, arial, verdana, sans-serif;
+  font-size: 2ex;
+  color: #333;
+  background-color: #fff;
+}
+
+.wrapper {
+  background-color: #F0FFF0;
+  width: 100%;
+}
+
+#PoweredBy {
+  width: 30%;
+  height: 9ex;
+  margin: 0ex 0ex 0ex 0ex;
+  padding: 0ex 0ex 0ex 0ex;
+  border-width: .3ex 0ex .3ex 0px;
+  border-style: solid;
+  border-color: #ccc;
+  float: left;
+  background-color: #000;
+  color: #fff;
+  line-height: 9ex;
+  voice-family: "\"}\"";
+  voice-family: inherit;
+  height: 9ex;
+}
+
+#Banner {
+  width: 69%;
+  height: 9ex;
+  margin: 0ex 0ex 0ex 0ex;
+  padding: 0ex 0ex 0ex 0ex;
+  border-width: .3ex 0ex .3ex 0px;
+  border-style: solid;
+  border-color: #ccc;
+  float: right;
+  background-color: #000;
+  color: #fff;
+  line-height: 9ex;
+  voice-family: "\"}\"";
+  voice-family: inherit;
+  height: 9ex;
+}
