@@ -9,4 +9,7 @@
         <result column="role_desc" property="roleDesc" />
     </resultMap>
 
+    <insert id="add" useGeneratedKeys="true" keyProperty="id" keyColumn="id">
+        insert into role(role_name,role_desc) value(#{role.roleName},#{role.roleDesc}) on duplicate key update role_name=#{role.roleName},is_deleted=0
+    </insert>
 </mapper>

@@ -1,0 +1,3 @@
+config:
+  redis:
+    dataBase: 0
